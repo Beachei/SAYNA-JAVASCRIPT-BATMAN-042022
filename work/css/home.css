@@ -1,0 +1,451 @@
+/********************************* header ********************************/
+header{
+    background-size: cover;
+}
+.fib{
+    border: 5px solid #c4c4c46e;
+}
+.pot{
+    cursor: pointer;
+}
+.t1{
+    text-decoration: none;
+}
+.t1:hover{
+    text-decoration: underline;
+    transition:0.4s ease-in-out;
+    transform:scale(1.03);
+}
+.t2{   
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.39), rgba(255, 0, 0, 0.295));
+    height: 50px;
+}
+.t2:hover{
+    background: linear-gradient(to right,rgba(255, 255, 255, 0.548), rgba(255, 0, 0, 0.555));
+    transition: all 0.7s ease-in;
+    transform: scale(1.03);
+}
+/********************************* PART 1 ********************************/
+.ts:hover{
+    animation: special 0.5s  both;
+}
+@keyframes special {
+    0%{
+        transform: translateY(-10px);
+    }
+    25%{
+        transform: translateY(-5px);
+    }
+    50%{
+        transform: translateY(0px);
+    }
+    75%{
+        transform: translateY(5px);
+    }
+    100%{
+        transform: translateY(10px);
+    }
+}
+.bi:hover{
+    animation: zoom 0.5s ease-in-out both;
+    margin-top: -15%;
+    margin-left: -13%;
+}
+@keyframes zoom {
+    0%{
+        width: 100%;
+        opacity: 0.2;
+    }
+    25%{
+        width: 108%;
+        opacity: 0.25;
+    }
+    50%{
+        width: 117%;
+        opacity: 0.5;
+    }
+    75%{
+        width: 125%;
+        opacity: 0.75;
+    }
+    100%{
+        width: 135%;
+        opacity: 1;
+    }
+}
+.bo{
+    border-radius: 50px;
+    background: linear-gradient(to right,rgba(255, 255, 255, 0.445), rgba(255, 0, 0, 0.418));
+}
+.fr{
+    margin-top: -5%;
+    margin-left: -5%;
+    margin-bottom: 2%;
+}
+
+.ft{
+    margin-top: -38%;
+    opacity: 0;
+}
+.lk{
+    height: 100%;
+    margin-top: -100%;
+}
+.lity{
+    margin-top: -38%;
+    opacity: 0;
+}
+.lity:hover{
+    opacity: 1;
+}
+.ft:hover{
+  animation: apparition 0.5s ease-in-out both;
+}
+@keyframes apparition {
+    from{
+        margin-top: -35%;
+        opacity: 0;
+    }
+    to{
+        margin-top: -38%;
+        opacity: 1;
+    }
+}
+.bt{
+    background-color: rgba(0, 0, 0, 0.61);
+}
+.fl{
+    font-size: x-small;
+}
+
+/********************************* PART2 ********************************/
+.infinite{
+    animation: slidpol 40s ease-in infinite;
+}
+@keyframes slidpol {
+    0%{
+        background: url(/Illustrations/Home/Batslider1.png);
+    }
+    5%{
+        background: url(/Illustrations/Home/Batslider2.png);
+    }
+    10%{
+        background: url(/Illustrations/Home/Batslider3.png);
+    }
+    15%{
+        background: url(/Illustrations/Home/Batslider4.png);
+    }
+    20%{
+        background: url(/Illustrations/Home/Batslider5.png);
+    }
+    25%{
+        background: url(/Illustrations/Home/Batslider6.png);
+    }
+    30%{
+        background: url(/Illustrations/Home/Batslider7.png);
+    }
+    35%{
+        background: url(/Illustrations/Home/Batslider8.png);
+    }
+    40%{
+        background: url(/Illustrations/Home/Batslider9.png);
+    }
+    45%{
+        background: url(/Illustrations/Home/Batslider10.png);
+    }
+    50%{
+        background: url(/Illustrations/Home/Batslider9.png);
+    }
+    55%{
+        background: url(/Illustrations/Home/Batslider8.png);
+    }
+    60%{
+        background: url(/Illustrations/Home/Batslider7.png);
+    }
+    65%{
+        background: url(/Illustrations/Home/Batslider6.png);
+    }
+    70%{
+        background: url(/Illustrations/Home/Batslider5.png);
+    }
+    75%{
+        background: url(/Illustrations/Home/Batslider4.png);
+    }
+    80%{
+        background: url(/Illustrations/Home/Batslider3.png);
+    }
+    85%{
+        background: url(/Illustrations/Home/Batslider2.png);
+    }
+    100%{
+        background: url(/Illustrations/Home/Batslider1.png);
+    }
+}
+#lo{
+ visibility: visible;
+}
+#li{
+visibility: hidden;
+}
+#lo:hover{
+    visibility: hidden;
+}#li:hover{
+    visibility: visible;
+}
+.t3{
+    animation: show 1.2s ease-out ;
+}
+.t4{
+    animation: show0 5s ease-in;
+}
+.t5{
+    animation: show1 4s ease-in-out;
+}
+.t6{
+    animation:  show2 6s ease-in-out;
+}
+@keyframes show2 {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+@keyframes show1 {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+@keyframes show0 {
+    /* this is better */
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+    /*
+    0%{
+        opacity: 0;
+        width: 5%;
+    }
+    25%{
+        width: 25%;
+    }
+    50%{
+        opacity: 0.5;
+        width: 50%;
+    }
+    75%{
+        width: 75%;
+    }
+    100%{
+        opacity: 1;
+        width: 100%;
+    }  */
+}
+@keyframes show {
+    from{
+        transform: translateX(-300px);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+/********************************* PART4 ********************************/
+.bP{
+    border: 1px solid rgba(255, 255, 255, 0.452);
+    border-left: none;
+    border-top-right-radius:15px;
+    border-bottom-right-radius:15px;
+}
+.bl:hover{
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.178);
+    border-top-right-radius:15px;
+    border-bottom-right-radius:15px;
+}
+.ptt{
+    font-size: x-small;
+    font-weight: 800;
+}
+.tof{
+    font-size: small;
+    font-weight: 700;
+}
+.shower{
+    visibility: visible;
+}
+.hide{
+    visibility: hidden;
+}
+.sty{
+overflow: hidden;
+}
+
+.anim{
+    animation: Slide1 3s ease-in-out both;
+}
+@keyframes Slide1 {
+  /* from{
+        transform: translate(0%);
+    }
+    to{
+        transform: translateX(-105%);
+    }  */
+    0%{
+     transform: translateX(105%); 
+    }
+    50%{
+        transform: translateX(0);
+    }
+}
+.anim1{
+    animation: Slide2 3s ease-in-out both;
+}
+@keyframes Slide2 {
+       0%{
+        transform: translateX(0); 
+       }
+       50%{
+           transform: translateX(-105%);
+       }
+}
+.animr{
+    animation: Slider 3s ease-in-out forwards;
+}
+@keyframes Slider {
+     /*
+    from{
+        transform: translate(1%);
+    }
+    to{
+        transform: translateX(105%);
+    }
+     */
+    0%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(105%);
+    }
+    100%{
+        transform: translateX(105%);
+    }
+}
+.aniz:hover{
+ box-shadow: 0px 0px 35px rgba(255, 255, 255, 0.473);
+}
+.lks:hover{
+    width: 132px;
+    height: 132px;
+}
+
+/********************************* PART5 ********************************/
+.brd{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.425);
+}
+.jk{
+    border: 1px solid rgba(255, 255, 255, 0.377);
+    border-right: 1px solid rgba(46, 69, 172, 0.452);
+    background: transparent;
+    height: 40px;
+    font-size: small;
+}
+.jk:hover{
+    background: linear-gradient(to right, #eddebf69, #19587d42);
+}
+.fkc{
+    background: linear-gradient(to right, #eddebf69, #19587d42);
+}
+.lma{
+    background: linear-gradient(to right, #eddebf4d, #89000948);
+}
+.lma:hover{
+    background: linear-gradient(to right, #eddebf80, #89000980);
+}
+
+/********************************* PART6 ********************************/
+.kely{
+    font-size: small;
+}
+.lo{
+width:8px;
+height:8px;
+background: none;
+}
+.gbh{
+    height: 8px;
+    width: 8px;
+}
+.litu{
+    overflow-x:hidden; 
+}
+.dop{
+    animation: slidepop 30s ease-in-out infinite;
+}
+@keyframes slidepop {
+    0%{
+        transform: translateX(0);
+    }
+    5%{
+        transform: translateX(-100%);
+    }
+    10%{
+        transform: translateX(-200%);
+    }
+    15%{
+        transform: translateX(-300%);
+    }
+    20%{
+        transform: translateX(-400%);
+    }
+    25%{
+        transform: translateX(-500%);
+    }
+    30%{
+        transform: translateX(-600%);
+    }
+    35%{
+        transform: translateX(-700%);
+    }
+    40%{
+        transform: translateX(-800%);
+    }
+    45%{
+        transform: translateX(-700%);
+    }
+    50%{
+        transform: translateX(-600%);
+    }
+    55%{
+        transform: translateX(-500%);
+    }
+    60%{
+        transform: translateX(-400%);
+    }
+    65%{
+        transform: translateX(-300%);
+    }
+    70%{
+        transform: translateX(-200%);
+    }
+    75%{
+        transform: translateX(-100%);
+    }
+    80%{
+        transform: translateX(0);
+    }
+
+}
+.yes:hover{
+    opacity: 0;
+}
+.nope{
+    display: none;
+}
