@@ -124,61 +124,61 @@ header{
 }
 @keyframes slidpol {
     0%{
-        background: url(/Illustrations/Home/Batslider1.png);
+        background: url(/work/Illustrations/Home/Batslider1.png);
     }
     5%{
-        background: url(/Illustrations/Home/Batslider2.png);
+        background: url(/work/Illustrations/Home/Batslider2.png);
     }
     10%{
-        background: url(/Illustrations/Home/Batslider3.png);
+        background: url(/work/Illustrations/Home/Batslider3.png);
     }
     15%{
-        background: url(/Illustrations/Home/Batslider4.png);
+        background: url(/work/Illustrations/Home/Batslider4.png);
     }
     20%{
-        background: url(/Illustrations/Home/Batslider5.png);
+        background: url(/work/Illustrations/Home/Batslider5.png);
     }
     25%{
-        background: url(/Illustrations/Home/Batslider6.png);
+        background: url(/work/Illustrations/Home/Batslider6.png);
     }
     30%{
-        background: url(/Illustrations/Home/Batslider7.png);
+        background: url(/work/Illustrations/Home/Batslider7.png);
     }
     35%{
-        background: url(/Illustrations/Home/Batslider8.png);
+        background: url(/work/Illustrations/Home/Batslider8.png);
     }
     40%{
-        background: url(/Illustrations/Home/Batslider9.png);
+        background: url(/work/Illustrations/Home/Batslider9.png);
     }
     45%{
-        background: url(/Illustrations/Home/Batslider10.png);
+        background: url(/work/Illustrations/Home/Batslider10.png);
     }
     50%{
-        background: url(/Illustrations/Home/Batslider9.png);
+        background: url(/work/Illustrations/Home/Batslider9.png);
     }
     55%{
-        background: url(/Illustrations/Home/Batslider8.png);
+        background: url(/work/Illustrations/Home/Batslider8.png);
     }
     60%{
-        background: url(/Illustrations/Home/Batslider7.png);
+        background: url(/work/Illustrations/Home/Batslider7.png);
     }
     65%{
-        background: url(/Illustrations/Home/Batslider6.png);
+        background: url(/work/Illustrations/Home/Batslider6.png);
     }
     70%{
-        background: url(/Illustrations/Home/Batslider5.png);
+        background: url(/work/Illustrations/Home/Batslider5.png);
     }
     75%{
-        background: url(/Illustrations/Home/Batslider4.png);
+        background: url(/work/Illustrations/Home/Batslider4.png);
     }
     80%{
-        background: url(/Illustrations/Home/Batslider3.png);
+        background: url(/work/Illustrations/Home/Batslider3.png);
     }
     85%{
-        background: url(/Illustrations/Home/Batslider2.png);
+        background: url(/work/Illustrations/Home/Batslider2.png);
     }
     100%{
-        background: url(/Illustrations/Home/Batslider1.png);
+        background: url(/work/Illustrations/Home/Batslider1.png);
     }
 }
 #lo{
